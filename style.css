@@ -1,0 +1,90 @@
+body {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 25px;
+    color: #f58ec8;
+    text-shadow: 1px 1px 2px black;
+    -webkit-text-stroke: 0.05px black;
+    background-image: url(https://wallpaperaccess.com/full/3076836.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+
+.cores {
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    justify-content: space-around;
+}
+
+.cor_solida {
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    border-radius: 7px;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.cor_transparente {
+    background-color: rgba(0, 0, 255, 0.526);
+    height: 400px;
+    width: 400px;
+    border-radius: 7px;
+    border-style: double;
+    border-width: 10px;
+    border-color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.gradiente_cores {
+    background: linear-gradient(72deg, rgb(68, 123, 226) 10% , rgb(22, 248, 195) 99%);
+    height: 400px;
+    width: 400px;
+    border-radius: 7px;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.box_img {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    height: 400px;
+    width: 1400px;
+    border-radius: 7px;
+    border: solid 10px black;
+    background-image: url(https://cdn6.campograndenews.com.br/uploads/noticias/2020/06/23/33zy1mhaojmsc.jpg);
+    background-size: contain;
+}
+
+.box_perfil {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.perfil {
+    background-image: url(https://i.pinimg.com/originals/1d/4d/69/1d4d69c694c8ba1034c0e9552f457ecf.jpg);
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: solid 8px #f58ec8;
+    box-shadow: 3px 3px 5px black;
+}
